@@ -33,6 +33,6 @@ function selectDifferentDrivers(array, func) {
   return func(array);
 };
 
-function fetchSpecifiedDriverss(driver, func){
+function fetchSpecifiedDrivers(driver, func){
   return func(driver);
 };
