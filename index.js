@@ -33,5 +33,4 @@ function selectDifferentDrivers(array, func) {
   return func(array);
 };
 
-function fetchSpecifiedDrivers(array, func) {
-    return func(array);
+
