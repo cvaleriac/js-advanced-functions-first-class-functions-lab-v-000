@@ -32,3 +32,7 @@ function fareTripler(fare) {
 function selectDifferentDrivers(array, func) {
   return func(array);
 };
+
+function fetchSpecifiedDriverss(driver, func){
+  return func(driver);
+};
