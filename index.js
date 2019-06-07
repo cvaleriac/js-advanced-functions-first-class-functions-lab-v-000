@@ -32,3 +32,7 @@ function fareTripler(fare) {
 function selectDifferentDrivers(array, func) {
   return func(array);
 };
+
+const fetchSpecifiedDrivers = function (array, func) {
+    return func(array);
+
